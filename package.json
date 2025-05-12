@@ -1,0 +1,17 @@
+{
+  "name": "app_templates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "bin": {
+    "appt": "./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.6.1"
+  }
+}
