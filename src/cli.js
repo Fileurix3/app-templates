@@ -17,7 +17,7 @@ async function enterProjectName() {
       name: "name",
       message: "Enter project name",
       validate: (name) => {
-        if (name.trim() == "") {
+        if (name.trim() === "") {
           return "The name can't be empty";
         }
         return true;
@@ -44,7 +44,7 @@ async function choiceLanguage() {
 async function choiceFramework(language) {
   let framework;
 
-  if (language == "JavaScript") {
+  if (language === "JavaScript") {
     framework = await inquirer.prompt([
       {
         type: "list",
@@ -53,7 +53,7 @@ async function choiceFramework(language) {
         choices: ["Express"],
       },
     ]);
-  } else if (language == "TypeScript") {
+  } else if (language === "TypeScript") {
     framework = await inquirer.prompt([
       {
         type: "list",
