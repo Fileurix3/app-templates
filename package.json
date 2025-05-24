@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "inquirer": "^12.6.1"
@@ -17,8 +17,6 @@
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "eslint": "^9.27.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-prettier": "^5.4.0",
     "globals": "^16.1.0",
     "prettier": "^3.5.3"
   }
