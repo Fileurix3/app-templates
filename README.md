@@ -9,13 +9,13 @@ CLI application that automatically generates a start template for projects so th
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Fileurix3/app_templates.git
+   git clone https://github.com/Fileurix3/app-templates.git
    ```
 
 2. **Navigate to the Project Folder**
 
    ```bash
-   cd app_templates
+   cd app-templates
    ```
 
 3. **Install project**
@@ -29,7 +29,7 @@ CLI application that automatically generates a start template for projects so th
 1. **Navigate to the Project Folder**
 
    ```bash
-   cd app_templates
+   cd app-templates
    ```
 
 2. **Remove CLI**
@@ -40,7 +40,7 @@ CLI application that automatically generates a start template for projects so th
 
 3. **Remove folder with this project**
    ```bash
-   rm -rf app_templates
+   rm -rf app-templates
    ```
 
 ## How to use it?
