@@ -1,5 +1,5 @@
 create_eslint_js(){
-  npm i -D eslint eslint-config-prettier eslint-plugin-prettier @eslint/js globals
+  npm i -D eslint @eslint/js globals
 
   echo 'import js from "@eslint/js";
     import globals from "globals";
@@ -22,7 +22,7 @@ create_eslint_js(){
 }
 
 create_eslint_ts(){
-  npm i -D eslint eslint-config-prettier eslint-plugin-prettier @eslint/js globals typescript-eslint
+  npm i -D eslint @eslint/js globals typescript-eslint
 
   echo 'import js from "@eslint/js";
     import globals from "globals";
