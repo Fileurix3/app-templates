@@ -2,6 +2,7 @@ TEMPLATES_DIR = /usr/local/share/templates/
 LOCAL_TEMPLATES_DIR = ./src/templates
 
 install: 
+	npm i
 	npm link
 
 	sudo find $(LOCAL_TEMPLATES_DIR) -type f -name "*.sh" -exec chmod +x {} \;
